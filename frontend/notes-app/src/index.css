@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    background-color: #fdfeff;
+    overflow: hidden;
+
+    --color-primary: #2B85FF;
+    --color-secondary: #1A63C8;
+  }
+}
+
+@layer components {
+  .input-box {
+    @apply w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 outline-none;
+  }
+
+  .btn-primary {
+    background-color: var(--color-primary);
+    color: white;
+    @apply w-full text-sm p-2 rounded my-1;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-secondary);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .icon-btn {
+    @apply text-xl text-slate-300 cursor-pointer;
+  }
+
+  .icon-btn:hover {
+    color: var(--color-primary);
+  }
+
+  .input-label {
+    @apply text-xs text-slate-400;
+  }
+}

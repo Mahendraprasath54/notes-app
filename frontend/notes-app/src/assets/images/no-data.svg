@@ -1,0 +1,14 @@
+<!-- src/assets/images/no-data.svg -->
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="300" height="200" fill="#F5F7FA"/>
+    <g transform="translate(85 40)">
+      <rect width="130" height="90" fill="#E1E8ED" rx="4"/>
+      <path fill="#AAB8C2" d="M20 30h90v5H20zM20 45h60v5H20zM20 60h70v5H20z"/>
+      <circle fill="#CCD6DD" cx="100" cy="70" r="8"/>
+    </g>
+    <text x="50%" y="170" font-family="Arial, sans-serif" font-size="16" fill="#657786" text-anchor="middle">
+      No data available
+    </text>
+  </g>
+</svg>
