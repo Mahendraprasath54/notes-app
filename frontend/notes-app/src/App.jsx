@@ -8,13 +8,15 @@ import Signup from './pages/signup/Signup';
 
 const App = () => {
   return (
+    
     <Router>
       <Routes>
         <Route path="/dashboard" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
     </Router>
+    
   );
 };
 
